@@ -21,10 +21,18 @@
   <div id="app">Loading...</div>
   <script>
     window.$docsify = {
-      name: 'Table of Contents',
+      name: 'Awsome Projects',
       relativePath: true,
       repo: 'imq/awesome-projects/',
-      search: ['/','/awesome-projects/microservices','awesome-projects/ssh'],
+      maxLevel: 3,
+      subMaxLevel: 2,
+      formatUpdated: '{DD}/{MM}/{YYYY} {HH}:{mm}',
+      search: {
+        depth: 5,
+        paths: [
+          '/', 'README', 'ssh', 'sysadmin'
+        ],
+      },
       darklightTheme: {
         siteFont : 'Source Sans Pro, Helvetica Neue',
         defaultTheme : 'light',

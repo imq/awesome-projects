@@ -1,3 +1,14 @@
-# WIP
+#  A curated list of amazingly awesome projects
 
-stil wip wip wip
+
+- Contents
+  - [Home](/)
+  - [Awesome](awesome.md)
+  - [Cyber-Security](cybersecurity.md)
+  - [For Developer](developer.md)
+  - [MicroServices](microservices.md)
+  - [PHP](php.md)
+  - [SSH](ssh.md)
+  - [Selfhosted non-free](selfhosted-non-free.md)
+  - [Selfhosted](selfhosted.md)
+  - [Sys-Admin](sysadmin.md)
