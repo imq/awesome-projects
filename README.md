@@ -6,8 +6,6 @@ This is more like aggregation of lists of services that are now popular. At this
 This list is the result of Pull Requests, reviews, ideas and work done by the people for the people. 
 You too can help by sending PR to add more services or by remove ones that changed or been retired.
 
-## Sources
-
 Most of the resources listed below provide lists and/or APIs to obtain (hopefully) up-to-date information with regards to threats.
 Some consider these sources as threat intelligence, opinions differ however.
 A certain amount of (domain- or business-specific) analysis is necessary to create true threat intelligence.
