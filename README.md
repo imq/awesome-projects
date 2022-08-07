@@ -3,12 +3,8 @@
 This is more like aggregation of lists of services that are now popular. At this moment is still WIP, so things can change. 
 
 
-This list is the result of Pull Requests, reviews, ideas and work done by the people for the people. 
-You too can help by sending PR to add more services or by remove ones that changed or been retired.
-
-Most of the resources listed below provide lists and/or APIs to obtain (hopefully) up-to-date information with regards to threats.
-Some consider these sources as threat intelligence, opinions differ however.
-A certain amount of (domain- or business-specific) analysis is necessary to create true threat intelligence.
+I did this list to have all under one roof, basically I've found pretty hard to search for something in so many repos. 
+Hope that I can manage to keep it clean, for now it is setup a python script to pipes some repositories and creates / updates this one.
 
 
 [Penetration testing](https://en.wikipedia.org/wiki/Penetration_test) is the practice of launching authorized, simulated attacks against computer systems and their physical infrastructure to expose potential security weaknesses and vulnerabilities. Should you discover a vulnerability, please follow [this guidance](https://kb.cert.org/vuls/guidance/) to report it responsibly.

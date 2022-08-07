@@ -1,28 +1,14 @@
 <hr>
-
-<a href="https://github.com/djsime1/awesome-flipperzero">
   <img src="https://user-images.githubusercontent.com/8518150/158502722-2532719c-a680-4405-b230-d45474a5decd.png" align="center" alt="Awesome Flipper Zero" title="Awesome Flipper Zero">
-</a>
+
 
 <hr>
 
 <h3 align="center">
   A collection of Awesome resources for the <a href="https://flipperzero.one">Flipper Zero</a> device.<br><br>
-  <a href="#">
-    <img src="https://awesome.re/badge.svg" alt="Awesome" height=24>
-    <img src="https://img.shields.io/badge/Powered%20by-Dolphins-blue" alt="Powered by dolphins" height=24>
-    <img src="https://img.shields.io/badge/Approved%20by-Lurat-brightgreen" alt="Approved by Lurat" height=24 title="Lurat is the name of my Flipper">
-    <img src="https://img.shields.io/badge/Hack-The%20Planet-orange" alt="Hack the planet" height=24>
-  </a>
 </h3>
 
 <table align="center"><tr>
-  <td>
-    <h3 align="center">
-    👋 New to Flipper Zero? Got questions?<br>
-    Check out the <a href="https://github.com/djsime1/awesome-flipperzero/blob/main/FAQ.md">FAQ Document</a>❗
-    </h3>
-  </td>
   <td>
     <h3 align="center">
     🚫 Not affiliated with<br>
@@ -70,7 +56,7 @@
 
 <table align="right">
   <tr><th><strong>Hey you!</strong></th></tr>
-  <tr><td>🔰 <em><a href="https://github.com/djsime1/awesome-flipperzero/blob/main/Firmwares.md">Click here</a> for a feature<br>comparison of these firmwares!</em></td></tr>
+  <tr><td>🔰 <em><a href="https://imq.github.io/awesome-projects/#/doc/flipperzero/Firmwares.md">Click here</a> for a feature<br>comparison of these firmwares!</em></td></tr>
 </table>
 
 - [`Unleashed` Frequency-unlocked firmware with rolling codes support & community plugins.](https://github.com/Eng1n33r/flipperzero-firmware)
@@ -135,16 +121,3 @@
 - [`ESP32 Marauder guide video` Companion video for the above link.](https://youtu.be/_YLTpNo5xa0)
 - [`Flipper Skylanders` How to read a Skylanders figure with Flipper.](https://github.com/V0lk3n/Flipper-Skylanders)
 
-<!-- DO NOT MODIFY BELOW -->
-
-<hr>
-<h3 align="center">Want to make changes?</h3>
-<div align="center">
-  You can <kbd><a href="https://github.com/djsime1/awesome-flipperzero/edit/main/README.md">Edit this file</a></kbd> and open a Pull Request,
-  or <kbd><a href="https://github.com/djsime1/awesome-flipperzero/discussions">Start a discussion</a></kbd> with your ideas.<br>
-  <em>(A GitHub account is required for both)</em>
-    <details>
-        <summary><em>Why so many umerged pull requests?</em></summary>
-        If there's multiple small pull requests open at the same time, I'll often merge them together as a single update. Due to the way GitHub works, I'm unable to mark them as merged when I do this. To compensate, I include the contributors as co-authors on the commit, and mention the Pull Request ID's as part of the update message.
-  </details>
-</div>

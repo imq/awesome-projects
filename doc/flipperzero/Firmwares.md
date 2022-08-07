@@ -2,13 +2,10 @@
 
 <h1>Flipper Zero firmware differences</h1>
 <h3>
-  <code>::</code> Last updated Aug 3 2022. <code>::</code>
+  <code>::</code> Last updated Aug 8 2022. <code>::</code>
 </h3>
 <p>This document will <em>(hopefully)</em> maintain a list of differences between various forks of the <a
-    href="#official">Flipper Zero firmware</a>. <br>If I had a dollar for every time I&#39;ve seen this question asked,
-  I wouldn&#39;t be in college debt. ¯\_(ツ)_/¯ <br>Also consider checking out the <a
-    href="https://github.com/djsime1/awesome-flipperzero">Awesome Flipper Zero list</a>, and my <a
-    href="https://gist.github.com/djsime1/73adaaf24f20b8bb70c4d4854431b0f1">rant about the two types of Flipper users</a>. </p>
+    href="#official">Flipper Zero firmware</a>.</p>
     <table><tr>
       <td>
         <strong>Jump to:</strong>
