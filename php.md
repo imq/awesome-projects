@@ -1,4 +1,4 @@
-## PHP Contents - [Return Home](/)
+## PHP Contents
 
 - [Awesome PHP](#awesome-php)
     - [Composer Repositories](#composer-repositories)

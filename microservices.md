@@ -1,4 +1,4 @@
-MicroServices Contents - [Return Home](/)
+MicroServices Contents
 ======================
 
 - [Platforms](#platforms)

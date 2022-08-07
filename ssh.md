@@ -1,4 +1,4 @@
-## SSH Contents - [Return Home](/)
+## SSH Contents
 
 - [Apps](#apps)
   - [`.ssh/config`](#sshconfig)

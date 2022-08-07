@@ -1,4 +1,4 @@
-## SysAdmin contents - [Return Home](/)
+## SysAdmin contents
 
 * [Awesome Sysadmin](#awesome-sysadmin)
   * [Automation](#automation)

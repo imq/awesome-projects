@@ -1,4 +1,4 @@
-Developer Contents - [Return Home](/)
+Developer Contents
 =================
 
    * [Major Cloud Providers' Always-Free Limits](#major-cloud-providers)

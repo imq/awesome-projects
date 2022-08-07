@@ -1,4 +1,4 @@
-## CyberSecurity of contents - [Return Home](/)
+## CyberSecurity of contents
 
 - [Awesome Security](#awesome-security)
   - [Network](#network)
