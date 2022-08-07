@@ -8,12 +8,7 @@
   <title>The List</title>
 
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css">
-  <link 
-      rel="stylesheet"
-      href="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/style.min.css"
-      title="docsify-darklight-theme"
-      type="text/css"
-  />
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/style.min.css" title="docsify-darklight-theme" type="text/css" />
 </head>
 <body>
   <noscript>This page requires JavaScript to work, please enable it or just read it on <a href="https://github.com/imq/awesome-projects">Here</a>.</noscript>
@@ -23,11 +18,10 @@
       name: '@Home',
       relativePath: true,
       repo: 'imq/awesome-projects/',
-      maxLevel: 3,
-      subMaxLevel: 2,
-      formatUpdated: '{DD}/{MM}/{YYYY} {HH}:{mm}',
-      loadSidebar: 'Sidebar.md',
-      coverpage: 'cover.md',
+      maxLevel: 6,
+      subMaxLevel: 3,
+      loadSidebar: './doc/Sidebar.md',
+      //coverpage: 'cover.md',
       search: {
         depth: 5,
         paths: [
@@ -50,12 +44,6 @@
       color: rgb(233, 105, 0) !important;
       font-weight: bold !important;
     }
-<!--
-    blockquote:first-of-type {
-      background-color: rgba(235, 248, 242, 0.363);
-
-    }
-  -->
   </style>
 </body>
 </html>
