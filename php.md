@@ -1,4 +1,5 @@
-## Table of Contents
+## PHP Contents - [Return Home](/)
+
 - [Awesome PHP](#awesome-php)
     - [Composer Repositories](#composer-repositories)
     - [Dependency Management](#dependency-management)

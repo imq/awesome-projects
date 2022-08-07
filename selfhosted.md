@@ -1,4 +1,4 @@
-## Table of contents
+## Selfhosted contents - [Return Home](/)
 
 - [Software](#software)
   - [Analytics](#analytics)
