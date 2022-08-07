@@ -174,19 +174,4 @@
 * [Security/Guidelines/OpenSSH - MozillaWiki](https://wiki.mozilla.org/Security/Guidelines/OpenSSH) - `sshd\_config` for `6.7+`, `5.3`.
 * [Applied-Crypto-Hardening](https://github.com/BetterCrypto/Applied-Crypto-Hardening) [![stars](https://img.shields.io/github/stars/BetterCrypto/Applied-Crypto-Hardening.svg?style=social&label=stars)](https://github.com/BetterCrypto/Applied-Crypto-Hardening) - `sshd\_config` for `6.X`
 
-### Documentation
 
-* [man page](http://linux.die.net/man/1/ssh)
-* [Specifications (OpenSSH)](http://www.openssh.com/specs.html)
-* [Wikipedia article](https://en.wikipedia.org/wiki/Secure_Shell)
-
-### Community
-
-* [StackOverflow](http://stackoverflow.com/questions/tagged/ssh)
-* [ServerFault](http://serverfault.com/questions/tagged/ssh)
-
-## License
-
-[![CC0](https://i.creativecommons.org/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
-
-To the extent possible under law, [Manfred Touron](https://github.com/moul) has waived all copyright and related or neighboring rights to this work.
