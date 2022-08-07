@@ -6,6 +6,7 @@
 - [Cyber-Security](/doc/security/README.md)
 - [For Developer](/doc/developer/README.md)
 - [Flipper Zero](/doc/flipperzero/README.md)
+- [Flipper FW](/doc/flipperzero/Firmwares.md)
 - [Forensics](/doc/forensics/README.md)
 - [Hacking](/doc/hacking/README.md)
 - [Honeypots](/doc/honeypots/README.md)
