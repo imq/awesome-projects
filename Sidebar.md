@@ -4,6 +4,7 @@
 - [Anti-Forensics](/doc/anti-forensic/README.md)
 - [Awesome](/doc/awsm/README.md)
 - [Cyber-Security](/doc/security/README.md)
+- [DEV-SRE-OPS](/doc/devops/README.md)
 - [For Developer](/doc/developer/README.md)
 - [Flipper Zero](/doc/flipperzero/README.md)
 - [Flipper FW](/doc/flipperzero/Firmwares.md)
