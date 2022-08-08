@@ -10,6 +10,7 @@
 - [Flipper FW](/doc/flipperzero/Firmwares.md)
 - [Forensics](/doc/forensics/README.md)
 - [Hacking](/doc/hacking/README.md)
+- [HEP](/doc/hep/README.md)
 - [Honeypots](/doc/honeypots/README.md)
 - [Incident Response](/doc/incident-response/README.md)
 - [Linux](/doc/linux/README.md)
