@@ -1,5 +1,11 @@
+# Awesome Honeypots 
+
+A curated list of awesome honeypots, plus related components and much more, divided into categories such as Web, services, and others, with a focus on free and open source projects.
+
+
 # Contents
 
+- [Awesome Honeypots ![Awesome Honeypots](https://github.com/sindresorhus/awesome)](#awesome-honeypots-)
 - [Contents](#contents)
   - [Related Lists](#related-lists)
   - [Honeypots](#honeypots)
@@ -19,6 +25,7 @@
 
   - [Delilah](https://github.com/SecurityTW/delilah) - Elasticsearch Honeypot written in Python (originally from Novetta).
   - [ESPot](https://github.com/mycert/ESPot) - Elasticsearch honeypot written in NodeJS, to capture every attempts to exploit CVE-2014-3120.
+  - [ElasticPot](https://gitlab.com/bontchev/elasticpot) - An Elasticsearch Honeypot.
   - [Elastic honey](https://github.com/jordan-wright/elastichoney) - Simple Elasticsearch Honeypot.
   - [MongoDB-HoneyProxy](https://github.com/Plazmaz/MongoDB-HoneyProxy) - MongoDB honeypot proxy.
   - [NoSQLpot](https://github.com/torque59/nosqlpot) - Honeypot framework built on a NoSQL-style database.
@@ -26,6 +33,7 @@
   - [MysqlPot](https://github.com/schmalle/MysqlPot) - MySQL honeypot, still very early stage.
   - [pghoney](https://github.com/betheroot/pghoney) - Low-interaction Postgres Honeypot.
   - [sticky_elephant](https://github.com/betheroot/sticky_elephant) - Medium interaction postgresql honeypot.
+  - [RedisHoneyPot](https://github.com/cypwnpwnsocute/RedisHoneyPot) - High Interaction Honeypot Solution for Redis protocol.
 
 - Web honeypots
 
@@ -61,6 +69,7 @@
     - [HoneyPress](https://github.com/kungfuguapo/HoneyPress) - Python based WordPress honeypot in a Docker container.
     - [wp-smart-honeypot](https://github.com/freak3dot/wp-smart-honeypot) - WordPress plugin to reduce comment spam with a smarter honeypot.
     - [wordpot](https://github.com/gbrindisi/wordpot) - WordPress Honeypot.
+  - [Python-Honeypot](https://github.com/OWASP/Python-Honeypot) - OWASP Honeypot, Automated Deception Framework.
 
 - Service Honeypots
 
@@ -72,6 +81,7 @@
   - [Honeygrove](https://github.com/UHH-ISS/honeygrove) - Multi-purpose modular honeypot based on Twisted.
   - [Honeyport](https://github.com/securitygeneration/Honeyport) - Simple honeyport written in Bash and Python.
   - [Honeyprint](https://github.com/glaslos/honeyprint) - Printer honeypot.
+  - [ListenSSH](https://github.com/GhostSlayer/ListenSSH) - Easily report all connection attempts on any port to AbuseIPDB.
   - [Lyrebird](https://hub.docker.com/r/lyrebird/honeypot-base/) - Modern high-interaction honeypot framework.
   - [MICROS honeypot](https://github.com/Cymmetria/micros_honeypot) - Low interaction honeypot to detect CVE-2018-2636 in the Oracle Hospitality Simphony component of Oracle Hospitality Applications (MICROS).
   - [RDPy](https://github.com/citronneur/rdpy) - Microsoft Remote Desktop Protocol (RDP) honeypot implemented in Python.
@@ -79,11 +89,14 @@
   - [Tom's Honeypot](https://github.com/inguardians/toms_honeypot) - Low interaction Python honeypot.
   - [WebLogic honeypot](https://github.com/Cymmetria/weblogic_honeypot) - Low interaction honeypot to detect CVE-2017-10271 in the Oracle WebLogic Server component of Oracle Fusion Middleware.
   - [WhiteFace Honeypot](https://github.com/csirtgadgets/csirtg-honeypot) - Twisted based honeypot for WhiteFace.
+  - [ddospot](https://github.com/aelth/ddospot) - NTP, DNS, SSDP, Chargen and generic UDP-based amplification DDoS honeypot.
+  - [dionaea](https://github.com/DinoTools/dionaea) - Home of the dionaea honeypot.
   - [dhp](https://github.com/ciscocsirt/dhp) - Simple Docker Honeypot server emulating small snippets of the Docker HTTP API.
   - [honeycomb_plugins](https://github.com/Cymmetria/honeycomb_plugins) - Plugin repository for Honeycomb, the honeypot framework by Cymmetria.
   - [honeyntp](https://github.com/fygrave/honeyntp) - NTP logger/honeypot.
   - [honeypot-camera](https://github.com/alexbredo/honeypot-camera) - Observation camera honeypot.
   - [honeypot-ftp](https://github.com/alexbredo/honeypot-ftp) - FTP Honeypot.
+  - [honeypots](https://github.com/qeeqbox/honeypots) - 25 different honeypots in a single pypi package! (dns, ftp, httpproxy, http, https, imap, mysql, pop3, postgres, redis, smb, smtp, socks5, ssh, telnet, vnc, mssql, elastic, ldap, ntp, memcache, snmp, oracle, sip and irc).
   - [honeytrap](https://github.com/honeytrap/honeytrap) - Advanced Honeypot framework written in Go that can be connected with other honeypot software.
   - [pyrdp](https://github.com/gosecure/pyrdp) - RDP man-in-the-middle and library for Python 3 with the ability to watch connections live or after the fact.
   - [troje](https://github.com/dutchcoders/troje/) - Honeypot that runs each connection with the service within a separate LXC container.
@@ -106,8 +119,13 @@
 
 - Other/random
 
+  - [CitrixHoneypot](https://github.com/MalwareTech/CitrixHoneypot) - Detect and log CVE-2019-19781 scan and exploitation attempts.
   - [Damn Simple Honeypot (DSHP)](https://github.com/naorlivne/dshp) - Honeypot framework with pluggable handlers.
+  - [dicompot](https://github.com/nsmfoo/dicompot) - DICOM Honeypot.
+  - [IPP Honey](https://gitlab.com/bontchev/ipphoney) - A honeypot for the Internet Printing Protocol.
+  - [Log4Pot](https://github.com/thomaspatzke/Log4Pot) - A honeypot for the Log4Shell vulnerability (CVE-2021-44228).
   - [Masscanned](https://github.com/ivre/masscanned) - Let's be scanned. A low-interaction honeypot focused on network scanners and bots. It integrates very well with IVRE to build a self-hosted alternative to GreyNoise.
+  - [medpot](https://github.com/schmalle/medpot) -  HL7 / FHIR honeypot.
   - [NOVA](https://github.com/DataSoft/Nova) - Uses honeypots as detectors, looks like a complete system.
   - [OpenFlow Honeypot (OFPot)](https://github.com/upa/ofpot) - Redirects traffic for unused IPs to a honeypot, built on POX.
   - [OpenCanary](https://github.com/thinkst/opencanary) - Modular and decentralised honeypot daemon that runs several canary versions of services that alerts when a service is (ab)used.
@@ -199,6 +217,7 @@
 
   - [Honeyperl](https://sourceforge.net/projects/honeyperl/) - Honeypot software based in Perl with plugins developed for many functions like : wingates, telnet, squid, smtp, etc.
   - [T-Pot](https://github.com/dtag-dev-sec/tpotce) - All in one honeypot appliance from telecom provider T-Mobile
+  - [beelzebub](https://github.com/mariocandela/beelzebub) - A secure honeypot framework, extremely easy to configure by yaml 🚀
 
 - Honeynet data fusion
 
@@ -309,6 +328,7 @@
   - [Blacknet](https://github.com/morian/blacknet) - Multi-head SSH honeypot system.
   - [Cowrie](https://github.com/cowrie/cowrie) - Cowrie SSH Honeypot (based on kippo).
   - [DShield docker](https://github.com/xme/dshield-docker) - Docker container running cowrie with DShield output enabled.
+  - [endlessh](https://github.com/skeeto/endlessh) - SSH tarpit that slowly sends an endless banner. ([docker image](https://hub.docker.com/r/linuxserver/endlessh))
   - [HonSSH](https://github.com/tnich/honssh) - Logs all SSH communications between a client and server.
   - [HUDINX](https://github.com/Cryptix720/HUDINX) - Tiny interaction SSH honeypot engineered in Python to log brute force attacks and, most importantly, the entire shell interaction performed by the attacker.
   - [Kippo](https://github.com/desaster/kippo) - Medium interaction SSH honeypot.
@@ -412,6 +432,10 @@
 
   - [Artemnesia VoIP](http://artemisa.sourceforge.net)
 
+- SIP
+
+  - [SentryPeer](https://github.com/SentryPeer/SentryPeer) - Protect your SIP Servers from bad actors.
+
 - IOT Honeypot
 
   - [HoneyThing](https://github.com/omererdem/honeything) - TR-069 Honeypot.
@@ -459,6 +483,7 @@
   - [libemu](https://github.com/buffer/libemu) - Shellcode emulation library, useful for shellcode detection.
 
 - Sandbox-as-a-Service
+
   - [Hybrid Analysis](https://www.hybrid-analysis.com) - Free malware analysis service powered by Payload Security that detects and analyzes unknown threats using a unique Hybrid Analysis technology.
   - [Joebox Cloud](https://jbxcloud.joesecurity.org/login) - Analyzes the behavior of malicious files including PEs, PDFs, DOCs, PPTs, XLSs, APKs, URLs and MachOs on Windows, Android and Mac OS X for suspicious activities.
   - [VirusTotal](https://www.virustotal.com/) - Analyze suspicious files and URLs to detect types of malware, and automatically share them with the security community.
@@ -477,6 +502,7 @@
   - [honeypotDisplay](https://github.com/Joss-Steward/honeypotDisplay) - Flask website which displays data gathered from an SSH Honeypot.
 
 - Visualization
+
   - [Acapulco](https://github.com/hgascon/acapulco) - Automated Attack Community Graph Construction.
   - [Afterglow Cloud](https://github.com/ayrus/afterglow-cloud)
   - [Afterglow](http://afterglow.sourceforge.net/)
@@ -485,7 +511,7 @@
   - [HoneyMap](https://github.com/fw42/honeymap) - Real-time websocket stream of GPS events on a fancy SVG world map.
   - [HoneyStats](https://sourceforge.net/projects/honeystats/) - Statistical view of the recorded activity on a Honeynet.
   - [HpfeedsHoneyGraph](https://github.com/yuchincheng/HpfeedsHoneyGraph) - Visualization app to visualize hpfeeds logs.
-  - [IVRE](https://github.com/ivre/ivre) - Network recon framework, published by @cea-sec & @ANSSI-FR. Build your own, self-hosted and fully-controlled alternatives to Shodan / ZoomEye / Censys and GreyNoise, run your Passive DNS service, collect and analyse network intelligence from your sensors, and much more!
+  - [IVRE](https://github.com/ivre/ivre) - Network recon framework, published by @cea-sec & @ANSSI-FR. Build your own, self-hosted and fully-controlled alternatives to Criminalip / Shodan / ZoomEye / Censys and GreyNoise, run your Passive DNS service, collect and analyse network intelligence from your sensors, and much more!
   - [Kippo stats](https://github.com/mfontani/kippo-stats) - Mojolicious app to display statistics for your kippo SSH honeypot.
   - [Kippo-Graph](https://bruteforcelab.com/kippo-graph) - Full featured script to visualize statistics from a Kippo SSH honeypot.
   - [The Intelligent HoneyNet](https://github.com/jpyorre/IntelligentHoneyNet) - Create actionable information from honeypots.
@@ -503,5 +529,6 @@
   - [honeypotpi](https://github.com/free5ty1e/honeypotpi) - Script for turning a Raspberry Pi into a HoneyPot Pi.
 
 - Research Papers
+
   - [Honeypot research papers](https://github.com/shbhmsingh72/Honeypot-Research-Papers) - PDFs of research papers on honeypots.
   - [vEYE](https://link.springer.com/article/10.1007%2Fs10115-008-0137-3) - Behavioral footprinting for self-propagating worm detection and profiling.

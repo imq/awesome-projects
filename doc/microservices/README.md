@@ -1,5 +1,4 @@
-MicroServices Contents
-======================
+**Table of Contents**
 
 - [Platforms](#platforms)
 - [Frameworks / Runtimes](#frameworks--runtimes)
@@ -60,8 +59,6 @@ MicroServices Contents
 - [Theory](#theory)
   - [Articles & Papers](#articles--papers)
   - [Sites & Organizations](#sites--organizations)
-- [License](#license)
-- [Contributing](#contributing)
 
 ## Platforms
 
@@ -75,8 +72,10 @@ MicroServices Contents
 - [OpenWhisk](http://openwhisk.org/) - Serverless, open source cloud platform that executes functions in response to events at any scale.
 - [Pulumi](https://pulumi.io/) - SDK for cloud native infrastructure as code. Use your favorite language to preview and manage updates to your apps and infrastructure, and continuously deploy to any cloud (no YAML required).
 - [STUPS](https://stups.io/) - A set of tools and components by Zalando to provide a convenient and audit-compliant PaaS for multiple autonomous teams on top of AWS.
+- [Svix](https://svix.com) - Webhooks service that sends webhooks to your users with full retry schedules, exponential backoff, signature verification, and event types.
 - [Triton](https://github.com/joyent/triton) - Open-source cloud management platform that delivers next generation, container-based, service-oriented infrastructure across one or more data centers.
 - [VAMP (c)](http://vamp.io/) - Build, deploy and manage microservices with power and ease.
+- [Wing](https://www.winglang.io/) - Cloud-oriented programming language. It allows developers to build distributed systems that fully leverage the power of the cloud without having to worry about the underlying infrastructure.
 
 ## Frameworks / Runtimes
 
@@ -84,6 +83,7 @@ MicroServices Contents
 - [Axon (c)](https://axoniq.io/) - An end-to-end development and infrastructure platform for easy development and running of any DDD, CQRS and Event Sourcing applications on JVM.
 - [Ballerina](https://ballerina.io) - Cloud native programming language.
 - [Dapr](https://dapr.io) - Open source runtime for writing highly performant microservices using any programming language.
+- [Deno](https://deno.land/) - JavaScript, TypeScript, and WebAssembly runtime with secure defaults and a great developer experience.
 - [Eclipse Microprofile](https://microprofile.io/) - An open forum to optimize Enterprise Java for a microservices architecture by innovating across multiple implementations and collaborating on common areas of interest with a goal of standardization.
 - [Erlang/OTP](https://github.com/erlang/otp) - Programming language used to build massively scalable soft real-time systems with requirements on high availability.
 - [Finagle](http://twitter.github.io/finagle) - Extensible RPC system for the JVM, used to construct high-concurrency servers.
@@ -101,6 +101,7 @@ MicroServices Contents
 - [Open Liberty](https://openliberty.io/) - A lightweight open framework for building fast and efficient cloud-native Java microservices.
 - [Orbit](https://github.com/orbit/orbit) - Modern framework for JVM languages that makes it easier to build and maintain distributed and scalable online services.
 - [SmallRye](https://smallrye.io/) - APIs and implementations tailored for cloud development, including Eclipse MicroProfile.
+- [Spin](https://github.com/fermyon/spin) - An open source framework for building and running fast, secure, and composable cloud microservices with WebAssembly.
 - [Thorntail](https://thorntail.io/) - An innovative approach to packaging and running Java EE applications by packaging them with just enough of the server runtime to "java -jar" your application.
 - [ScaleCube](https://github.com/scalecube/scalecube) - Toolkit for building reactive microservices for the JVM: low-latency, high-throughput, scalable and resilient.
 - [Vert.X](http://vertx.io/) - Toolkit for building reactive applications on the JVM.
@@ -111,7 +112,6 @@ MicroServices Contents
 
 ### Polyglot
 
-- [CoAP](http://coap.technology/impls.html) - Constrained application protocol implementations.
 - [GRPC](http://www.grpc.io/) - A high performance, open source, general RPC framework that puts mobile and HTTP/2 first. Libraries in C, C++, Java, Go, Node.js, Python, Ruby, Objective-C, PHP and C#.
 - [Hprose](http://github.com/hprose) - A very newbility RPC Library, support 25+ languages now.
 
@@ -263,7 +263,7 @@ MicroServices Contents
 - [Micro Panda](https://github.com/zhaoyao91/micro-panda) - Node.js toolkit to help build microservices.
 - [Micro-Whalla](https://github.com/czerwonkabartosz/Micro-Whalla) - A simple, fast framework for writing microservices in Node.js communicate using RPC / IPC.
 - [Restify](http://restify.com/) - Node.js module built specifically to enable you to build correct REST web services.
-- [Seneca](http://senecajs.org/) - A microservices toolkit for Node.js
+- [Seneca](https://github.com/senecajs/seneca) - A microservices toolkit for Node.js
 - [Serverless](https://github.com/serverless/serverless) - Build and maintain web, mobile and IoT applications running on AWS Lambda and API Gateway (formerly known as JAWS).
 - [Steriods Framework](https://github.com/99xt/steroidslibrary) - Steroids framework simplifies the development of microservices with Serverless using TypeScript by enabling the developer to emphasize more on business/domain logic rather than focusing too much on technical details.
 
@@ -297,7 +297,7 @@ MicroServices Contents
 - [Nameko](https://github.com/onefinestay/nameko) - Python framework for building microservices.
 - [Sanic](https://github.com/channelcat/sanic) - Sanic is a Flask-like Python 3.5+ web server that's written to go fast.
 - [Tornado](http://www.tornadoweb.org/) - Web framework and asynchronous networking library.
-- [Twisted](https://twistedmatrix.com/trac/) - Event-driven network programming engine.
+- [Twisted](https://twistedmatrix.com) - Event-driven network programming engine.
 - [Web.py](https://github.com/webpy/webpy/) - Minimalist web framework for Python.
 - [Zappa](https://github.com/Miserlou/Zappa) - Framework for building and deploying server-less Python event-driven and web applications.
 
@@ -388,7 +388,7 @@ MicroServices Contents
 - [Conductor](https://github.com/Netflix/conductor) - A microservices orchestration engine.
 - [Fission Workflows](https://github.com/fission/fission-workflows) - Workflow-based, reliable function composition for serverless functions.
 - [Temporal](https://github.com/temporalio/temporal) - Open source microservices orchestration platform for running mission critical code at any scale.
-- [Zeebe](https://zeebe.io/) - Define, orchestrate, and monitor business processes across microservices.
+- [Zeebe](https://camunda.com/platform/zeebe/) - Define, orchestrate, and monitor business processes across microservices.
 
 ### Elasticity
 
@@ -448,6 +448,7 @@ MicroServices Contents
 - [Pulsar](https://pulsar.apache.org/) - Distributed pub-sub messaging system.
 - [Qpid](https://qpid.apache.org/) - Cross-platform messaging components built on AMQP.
 - [RabbitMQ](https://www.rabbitmq.com/) - Open source Erlang-based message broker that just works.
+- [Redpanda](https://github.com/redpanda-data/redpanda/) - Streaming data platform for developers: Kafka API compatible, 10x faster, no ZooKeeper and no JVM.
 - [RocketMQ](https://github.com/apache/incubator-rocketmq) - A low latency, reliable, scalable, easy to use message oriented middleware born from alibaba massive messaging business.
 - [VerneMQ](https://verne.mq) - Open source, scalable, Erlang-based MQTT broker.
 
@@ -492,7 +493,6 @@ MicroServices Contents
 
 ### Security
 
-- [Databunker](https://paranoidguy.com/) - Personally identifiable information (PII) storage service built to comply with GDPR.
 - [Dex](https://github.com/coreos/dex) - Opinionated auth/directory service with pluggable connectors. OpenID Connect provider and third-party OAuth 2.0 delegation.
 - [Identity Server](https://github.com/IdentityServer/IdentityServer4) - OpenID Connect and OAuth 2.0 Framework for ASP.NET Core.
 - [JWT](http://jwt.io/) - JSON Web Tokens are an open, industry standard RFC 7519 method for representing claims securely between two parties.
@@ -563,6 +563,7 @@ MicroServices Contents
 - [Mitmproxy](https://mitmproxy.org/) - An interactive console program that allows traffic flows to be intercepted, inspected, modified and replayed.
 - [Mountebank](http://www.mbtest.org/) - Cross-platform, multi-protocol test doubles over the wire.
 - [Pact](https://docs.pact.io) - Contract testing framework for HTTP APIs and non-HTTP asynchronous messaging systems.
+- [RestQA](https://github.com/restqa/restqa) - A tool to manage microservices mocking, unit and performance testing locally with best in class developer experience.
 - [Spring Cloud Contract](https://cloud.spring.io/spring-cloud-contract/) - TDD to the level of software architecture.
 - [VCR](https://github.com/vcr/vcr) - Record your test suite's HTTP interactions and replay them during future test runs for fast, deterministic, accurate tests. See the list of ports for implementations in other languages.
 - [Wilma](https://github.com/epam/Wilma) - Combined HTTP/HTTPS service stub and transparent proxy solution.
@@ -592,7 +593,7 @@ MicroServices Contents
 - [ReDoc](https://github.com/Rebilly/ReDoc) - OpenAPI/Swagger-generated API Documentation.
 - [Slate](https://github.com/tripit/slate) - Beautiful static documentation for your API.
 - [Spring REST Docs](http://projects.spring.io/spring-restdocs/) - Document RESTful services by combining hand-written documentation with auto-generated snippets produced with Spring MVC Test.
-- [Swagger](http://swagger.io/) - A simple yet powerful representation of your RESTful API.
+- [Swagger](https://swagger.io/) - A simple yet powerful representation of your RESTful API.
 
 ## Standards / Recommendations
 
@@ -629,18 +630,14 @@ MicroServices Contents
 - [QUIC-WG](https://quicwg.org/) - IETF Working Group that is chartered to deliver the next transport protocol for the Internet.
 - [QUIC-Transport](https://tools.ietf.org/html/draft-ietf-quic-transport-27) - A UDP-based multiplexed and secure transport.
 
-### CoAP
-
-- [RFC7252](http://coap.technology/spec.html) - The Constrained Application Protocol (CoAP) is a specialized web transfer protocol for use with constrained nodes and constrained networks in the Internet of Things.
-
 ### RPC
 
 - [JSON-RPC 2.0](http://www.jsonrpc.org/specification) - A stateless, light-weight remote procedure call (RPC) protocol.
 
 ### Messaging
 
-- [AMQP](http://www.amqp.org/) - Advanced Message Queuing Protocol.
-- [MQTT](http://mqtt.org/) - MQ Telemetry Transport.
+- [AMQP](https://www.amqp.org/) - Advanced Message Queuing Protocol.
+- [MQTT](https://mqtt.org/ - MQ Telemetry Transport.
 - [STOMP](https://stomp.github.io/) - Simple Text Oriented Messaging Protocol.
 
 ### Security
@@ -712,16 +709,15 @@ MicroServices Contents
 - [Awesome Scalability](https://github.com/binhnguyennus/awesome-scalability) :star: - An updated and organized reading list for illustrating the patterns of scalable, reliable, and performant large-scale systems. Concepts are explained in the articles of prominent engineers and credible references. Case studies are taken from battle-tested systems that serve millions to billions of users.
 - [A Sidecar for Your Service Mesh](https://www.abhishek-tiwari.com/a-sidecar-for-your-service-mesh/) - A short service mesh introduction.
 - [AKF Scale Cube](http://akfpartners.com/techblog/2008/05/08/splitting-applications-or-services-for-scale/) - Model depicting the dimensions to scale a service.
-- [Benchmark Requirements for Microservices Architecture Research](https://goo.gl/14ElnV) :small_orange_diamond:<sup>PDF</sup> - Set of requirements that may be useful in selecting a community-owned architecture benchmark to support repeatable microservices research.
 - [Building Microservices? Here is What You Should Know](https://cloudncode.blog/2016/07/22/msa-getting-started/) - A practical overview, based on real-world experience, of what one would need to know in order to build microservices.
 - [CALM](http://db.cs.berkeley.edu/papers/cidr11-bloom.pdf) :small_orange_diamond:<sup>PDF</sup> - Consistency as logical monotonicity.
 - [Canary Release](http://martinfowler.com/bliki/CanaryRelease.html) - Technique to reduce the risk of introducing a new software version in production by slowly rolling out the change to a small subset of users before rolling it out to the entire infrastructure and making it available to everybody.
 - [CAP Theorem](http://blog.thislongrun.com/2015/03/the-cap-theorem-series.html) -  States that it is impossible for a distributed computer system to simultaneously provide all three of the following guarantees: Consistency, Availability and Partition tolerance.
 - [Formal Foundations of Serverless Computing](https://arxiv.org/pdf/1902.05870.pdf) :small_orange_diamond:<sup>PDF</sup> - The serverless computing abstraction exposes several low-level operational details that make it hard for programmers to write and reason about their code. This paper sheds light on this problem by presenting λ, an operational semantics of the essence of serverless computing.
-- [Introducing Domain-Oriented Microservice Architecture](https://eng.uber.com/microservice-architecture/) - Introduction to Uber Engineering generalized approach to microservice architectures, named “Domain-Oriented Microservice Architecture” (DOMA).
+- [Introducing Domain-Oriented Microservice Architecture](https://www.uber.com/blog/microservice-architecture/) - Introduction to Uber Engineering generalized approach to microservice architectures, named “Domain-Oriented Microservice Architecture” (DOMA).
 - [Java Microservices: A Practical Guide](https://www.marcobehler.com/guides/java-microservices-a-practical-guide) - You can use this guide to understand what Java microservices are, how you architect and build them. Also: A look at Java microservice libraries & common questions.
 - [Microservice Architecture](http://martinfowler.com/articles/microservices.html) - Particular way of designing software applications as suites of independently deployable services.
-- [Microservices – Please, don’t](http://basho.com/posts/technical/microservices-please-dont/) - Critical advice about some problems regarding a microservices approach.
+- [Microservices – Please, don’t](https://riak.com/posts/technical/microservices-please-dont/) - Critical advice about some problems regarding a microservices approach.
 - [Microservices RefCard](https://dzone.com/refcardz/getting-started-with-microservices) - Getting started with microservices.
 - [Microservices Trade-Offs](http://martinfowler.com/articles/microservice-trade-offs.html) - Guide to ponder costs and benefits of the mircoservices architectural style.
 - [Reactive Manifesto](http://www.reactivemanifesto.org/) - Reactive systems definition.
@@ -740,4 +736,3 @@ MicroServices Contents
 - [Microservices Resource Guide](http://martinfowler.com/microservices/) - Martin Fowler's choice of articles, videos, books, and podcasts that can teach you more about the microservices architectural style.
 - [Microservice Patterns](http://microservices.io/) - Microservice architecture patterns and best practices.
 - [Microservice Antipatterns and Pitfalls](https://www.oreilly.com/ideas/microservices-antipatterns-and-pitfalls) - Microservice mostly known antipatterns and pitfalls.
-

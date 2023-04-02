@@ -1,36 +1,42 @@
-- [Awesome Forensics](#awesome-forensics)
-- [Collections](#collections)
-- [Tools](#tools)
-  - [Distributions](#distributions)
-  - [Frameworks](#frameworks)
-  - [Live Forensics](#live-forensics)
-  - [IOC Scanner](#ioc-scanner)
-  - [Acquisition](#acquisition)
-  - [Imageing](#imageing)
-  - [Carving](#carving)
-  - [Memory Forensics](#memory-forensics)
-  - [Network Forensics](#network-forensics)
-  - [Windows Artifacts](#windows-artifacts)
-    - [NTFS/MFT Processing](#ntfsmft-processing)
-  - [OS X Forensics](#os-x-forensics)
-  - [Mobile Forensics](#mobile-forensics)
-  - [Docker Forensics](#docker-forensics)
-  - [Internet Artifacts](#internet-artifacts)
-  - [Timeline Analysis](#timeline-analysis)
-  - [Disk image handling](#disk-image-handling)
-  - [Decryption](#decryption)
-  - [Management](#management)
-  - [Picture Analysis](#picture-analysis)
-- [Learn Forensics](#learn-forensics)
-  - [CTFs and Challenges](#ctfs-and-challenges)
-- [Resources](#resources)
-  - [Books](#books)
-  - [File System Corpora](#file-system-corpora)
-  - [Twitter](#twitter)
-  - [Blogs](#blogs)
-  - [Other](#other)
-- [Related Awesome Lists](#related-awesome-lists)
-- [Contributing](#contributing)
+# Curated list of awesome **free** (mostly open source) forensic analysis tools and resources.
+
+- [Awesome Forensics ](#awesome-forensics-)
+  - [Collections](#collections)
+  - [Tools](#tools)
+    - [Distributions](#distributions)
+    - [Frameworks](#frameworks)
+    - [Live Forensics](#live-forensics)
+    - [IOC Scanner](#ioc-scanner)
+    - [Acquisition](#acquisition)
+    - [Imaging](#imaging)
+    - [Carving](#carving)
+    - [Memory Forensics](#memory-forensics)
+    - [Network Forensics](#network-forensics)
+    - [Windows Artifacts](#windows-artifacts)
+      - [NTFS/MFT Processing](#ntfsmft-processing)
+    - [OS X Forensics](#os-x-forensics)
+    - [Mobile Forensics](#mobile-forensics)
+    - [Docker Forensics](#docker-forensics)
+    - [Internet Artifacts](#internet-artifacts)
+    - [Timeline Analysis](#timeline-analysis)
+    - [Disk image handling](#disk-image-handling)
+    - [Decryption](#decryption)
+    - [Management](#management)
+    - [Picture Analysis](#picture-analysis)
+    - [Metadata Forensics](#metadata-forensics)
+    - [Steganography](#steganography)
+  - [Learn Forensics](#learn-forensics)
+    - [CTFs and Challenges](#ctfs-and-challenges)
+  - [Resources](#resources)
+    - [Web](#web)
+    - [Blogs](#blogs)
+    - [Books](#books)
+    - [File System Corpora](#file-system-corpora)
+    - [Twitter](#twitter)
+    - [Other](#other)
+    - [Labs](#labs)
+  - [Related Awesome Lists](#related-awesome-lists)
+  - [Contributing](#contributing)
 
 ---
 
@@ -56,8 +62,9 @@
 ### Frameworks
 
 - :star:[Autopsy](http://www.sleuthkit.org/autopsy/) - SleuthKit GUI
-- [dff](https://github.com/arxsys/dff) - Forensic framework
 - [dexter](https://github.com/coinbase/dexter) - Dexter is a forensics acquisition framework designed to be extensible and secure
+- [dff](https://github.com/arxsys/dff) - Forensic framework
+- [Dissect](https://github.com/fox-it/dissect) - Dissect is a digital forensics & incident response framework and toolset that allows you to quickly access and analyse forensic artefacts from various disk and file formats, developed by Fox-IT (part of NCC Group).
 - [hashlookup-forensic-analyser](https://github.com/hashlookup/hashlookup-forensic-analyser) - A tool to analyse files from a forensic acquisition to find known/unknown hashes from [hashlookup](https://www.circl.lu/services/hashlookup/) API or using a local Bloom filter.
 - [IntelMQ](https://github.com/certtools/intelmq) - IntelMQ collects and processes security feeds
 - [Kuiper](https://github.com/DFIRKuiper/Kuiper) - Digital Investigation Platform
@@ -85,9 +92,11 @@
 - [Loki](https://github.com/Neo23x0/Loki) - Simple IOC and Incident Response Scanner
 - [Redline](https://fireeye.market/apps/211364) - Free endpoint security tool from FireEye
 - [THOR Lite](https://www.nextron-systems.com/thor-lite/) - Free IOC and YARA Scanner
+- [recon](https://github.com/rusty-ferris-club/recon) - Performance oriented file finder with support for SQL querying, index and analyze file metadata with support for YARA.
 
 ### Acquisition
 
+- [Acquire](https://github.com/fox-it/acquire) - Acquire is a tool to quickly gather forensic artifacts from disk images or a live system into a lightweight container
 - [artifactcollector](https://github.com/forensicanalysis/artifactcollector) - A customizable agent to collect forensic artifacts on any Windows, macOS or Linux system
 - [ArtifactExtractor](https://github.com/Silv3rHorn/ArtifactExtractor) - Extract common Windows artifacts from source images and VSCs
 - [AVML](https://github.com/microsoft/avml) - A portable volatile memory acquisition tool for Linux
@@ -105,8 +114,8 @@
 ### Imaging
 
 - [dc3dd](https://sourceforge.net/projects/dc3dd/) - Improved version of dd
-- [dcfldd](http://dcfldd.sourceforge.net) - Different improved version of dd (this version has some bugs!, another version is on github [adulau/dcfldd](https://github.com/adulau/dcfldd))
-- [FTK Imager](https://accessdata.com/product-download/ftk-imager-version-4-5) - Free imageing tool for windows
+- [dcfldd](https://dcfldd.sourceforge.net/) - Different improved version of dd (this version has some bugs!, another version is on github [adulau/dcfldd](https://github.com/adulau/dcfldd))
+- [FTK Imager](https://www.exterro.com/ftk-imager) - Free imageing tool for windows
 - :star: [Guymager](https://guymager.sourceforge.io/) - Open source version for disk imageing on linux systems
 
 ### Carving
@@ -137,6 +146,7 @@
 
 - [Beagle](https://github.com/yampelo/beagle) -  Transform data sources and logs into graphs
 - [FRED](https://www.pinguin.lu/fred) - Cross-platform microsoft registry hive editor
+- [Hayabusa](https://github.com/Yamato-Security/hayabusa) - A a sigma-based threat hunting and fast forensics timeline generator for Windows event logs.
 - [LastActivityView](https://www.nirsoft.net/utils/computer_activity_view.html) - LastActivityView by Nirsoftis a tool for Windows operating system that collects information from various sources on a running system, and displays a log of actions made by the user and events occurred on this computer. 
 - [LogonTracer](https://github.com/JPCERTCC/LogonTracer) - Investigate malicious Windows logon by visualizing and analyzing Windows event log
 - [python-evt](https://github.com/williballenthin/python-evt) - Pure Python parser for classic Windows Event Log files (.evt)
@@ -236,10 +246,11 @@
 
 - [Forensic challenges](https://www.amanhardikar.com/mindmaps/ForensicChallenges.html) - Mindmap of forensic challenges
 - [OpenLearn](https://www.open.edu/openlearn/science-maths-technology/digital-forensics/content-section-0?active-tab=description-tab) - Digital forensic course
-- [Training material](https://www.enisa.europa.eu/topics/trainings-for-cybersecurity-specialists/online-training-material/technical-operational) - Online training material by European Union Agency for Network and Information Security for different topics (e.g. [Digital forensics](https://www.enisa.europa.eu/topics/trainings-for-cybersecurity-specialists/online-training-material/technical-operational/#digital_forensics), [Network forensics](https://www.enisa.europa.eu/topics/trainings-for-cybersecurity-specialists/online-training-material/technical-operational/#network_forensics))
+- [Training material](https://www.enisa.europa.eu/topics/training-and-exercises/trainings-for-cybersecurity-specialists/online-training-material/technical-operational) - Online training material by European Union Agency for Network and Information Security for different topics (e.g. [Digital forensics](https://www.enisa.europa.eu/topics/training-and-exercises/trainings-for-cybersecurity-specialists/online-training-material/technical-operational#digital_forensics), [Network forensics](https://www.enisa.europa.eu/topics/training-and-exercises/trainings-for-cybersecurity-specialists/online-training-material/technical-operational#network_forensics))
 
 ### CTFs and Challenges
 
+- [BelkaCTF](https://belkasoft.com/ctf) - CTFs by Belkasoft
 - [Champlain College DFIR CTF](https://champdfa-ccsc-sp20.ctfd.io)
 - [CyberDefenders](https://cyberdefenders.org/blueteam-ctf-challenges/?type=ctf) 
 - [DefCon CTFs](https://archive.ooo) - archive of DEF CON CTF challenges.
@@ -265,9 +276,8 @@
 
 - [FlashbackData](https://www.flashbackdata.com/blog/)
 - [Netresec](https://www.netresec.com/index.ashx?page=Blog)
-- [roDigitalForensics](https://prodigital4n6.com/blog/)
 - [SANS Forensics Blog](https://www.sans.org/blog/?focus-area=digital-forensics)
-- [SecurityAffairs](https://securityaffairs.co/wordpress/) - blog by Pierluigi Paganini
+- [SecurityAffairs](https://securityaffairs.co/) - blog by Pierluigi Paganini
 - [thisweekin4n6.wordpress.com](thisweekin4n6.wordpress.com) - Weekly updates for forensics
 - [Zena Forensics](https://blog.digital-forensics.it/)
 
@@ -286,6 +296,23 @@
 - [The CFReDS Project](https://cfreds.nist.gov)
   - [Hacking Case (4.5 GB NTFS Image)](https://cfreds.nist.gov/Hacking_Case.html)
 
+### Twitter
+
+- [@4n6ist](https://twitter.com/4n6ist)
+- [@AppleExaminer](https://twitter.com/AppleExaminer) - Apple OS X & iOS Digital Forensics
+- [@carrier4n6](https://twitter.com/carrier4n6) - Brian Carrier, author of Autopsy and the Sleuth Kit
+- [@forensikblog](https://twitter.com/forensikblog) - Computer forensic geek
+- [@HECFBlog](https://twitter.com/HECFBlog) - SANS Certified Instructor
+- [@Hexacorn](https://twitter.com/Hexacorn) - DFIR+Malware
+- [@hiddenillusion](https://twitter.com/hiddenillusion)
+- [@iamevltwin](https://twitter.com/iamevltwin) - Mac Nerd, Forensic Analyst, Author & Instructor of SANS FOR518
+- [@jaredcatkinson](https://twitter.com/jaredcatkinson) - PowerShell Forensics
+- [@maridegrazia](https://twitter.com/maridegrazia) - Computer Forensics Examiner
+- [@sleuthkit](https://twitter.com/sleuthkit)
+- [@williballenthin](https://twitter.com/williballenthin)
+- [@XWaysGuide](https://twitter.com/XWaysGuide)
+- [@inginformatico](https://twitter.com/inginformatico) - DFIR analyst and enthusiast
+
 ### Other
 
 - [/r/computerforensics/](https://www.reddit.com/r/computerforensics/) - Subreddit for computer forensics
@@ -295,3 +322,4 @@
 ### Labs
 
 - [BlueTeam.Lab](https://github.com/op7ic/BlueTeam.Lab) - Blue Team detection lab created with Terraform and Ansible in Azure.
+

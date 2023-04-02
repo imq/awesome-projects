@@ -1,6 +1,19 @@
 # awesome-threat-intelligence
 A curated list of awesome Threat Intelligence resources
 
+A concise definition of Threat Intelligence: *evidence-based knowledge, including context, mechanisms, indicators, implications and actionable advice, about an existing or emerging menace or hazard to assets that can be used to inform decisions regarding the subject’s response to that menace or hazard*.
+
+- [Sources](#sources)
+- [Formats](#formats)
+- [Frameworks & Platforms](#frameworks-and-platforms)
+- [Tools](#tools)
+- [Research, Standards & Books](#research)
+
+## Sources
+
+Most of the resources listed below provide lists and/or APIs to obtain (hopefully) up-to-date information with regards to threats.
+Some consider these sources as threat intelligence, opinions differ however.
+A certain amount of (domain- or business-specific) analysis is necessary to create true threat intelligence.
 
 <table>
     <tr>
@@ -17,14 +30,6 @@ A curated list of awesome Threat Intelligence resources
         </td>
         <td>
             The top 1 Million sites from Amazon(Alexa). Never use this as a <a href="https://www.netresec.com/?page=Blog&month=2017-04&post=Domain-Whitelist-Benchmark%3a-Alexa-vs-Umbrella" target="_blank">whitelist</a>.
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <a href="https://apility.io" target="_blank">Apility.io</a>
-        </td>
-        <td>
-            Apility.io is a Minimal and Simple anti-abuse API blacklist lookup tool. It helps users to know immediately if an IP, Domain or Email is blacklisted. It automatically extracts all the information in realtime from multiple sources.
         </td>
     </tr>
     <tr>
@@ -69,7 +74,7 @@ A curated list of awesome Threat Intelligence resources
     </tr>
     <tr>
         <td>
-            <a href="http://danger.rulez.sk/projects/bruteforceblocker/" target="_blank">BruteForceBlocker</a>
+            <a href="https://danger.rulez.sk/index.php/bruteforceblocker/download/" target="_blank">BruteForceBlocker</a>
         </td>
         <td>
             BruteForceBlocker is a perl script that monitors a server's sshd logs and identifies brute force attacks, which it then uses to automatically configure firewall blocking rules and submit those IPs back to the project site, <a href="http://danger.rulez.sk/projects/bruteforceblocker/blist.php">http://danger.rulez.sk/projects/bruteforceblocker/blist.php</a>.
@@ -80,7 +85,7 @@ A curated list of awesome Threat Intelligence resources
             <a href="http://osint.bambenekconsulting.com/feeds/c2-ipmasterlist.txt" target="_blank">C&amp;C Tracker</a>
         </td>
         <td>
-            A feed of known, active and non-sinkholed C&amp;C IP addresses, from Bambenek Consulting.
+            A feed of known, active and non-sinkholed C&amp;C IP addresses, from Bambenek Consulting. Requires license for commercial use.
         </td>
     </tr>
     <tr>
@@ -147,6 +152,14 @@ A curated list of awesome Threat Intelligence resources
             Cyber Cure offers free cyber threat intelligence feeds with lists of IP addresses that are currently infected and attacking on the internet. There are list of urls used by malware and list of hash files of known malware that is currently spreading. CyberCure is using sensors to collect intelligence with a very low false positive rate. Detailed <a href="https://docs.cybercure.ai" target="_blank">documentation</a> is available as well.
         </td>
     </tr>
+<tr>
+        <td>
+            <a href="https://cyware.com/community/ctix-feeds" target="_blank">Cyware Threat Intelligence Feeds</a>
+        </td>
+        <td>
+            Cyware’s Threat Intelligence feeds brings to you the valuable threat data from a wide range of open and trusted sources to deliver a consolidated stream of valuable and actionable threat intelligence. Our threat intel feeds are fully compatible with STIX 1.x and 2.0, giving you the latest information on malicious malware hashes, IPs and domains uncovered across the globe in real-time.
+        </td>
+    </tr>
     <tr>
         <td>
             <a href="https://dataplane.org/" target="_blank">DataPlane.org</a>
@@ -181,7 +194,7 @@ A curated list of awesome Threat Intelligence resources
     </tr>
     <tr>
         <td>
-            <a href="https://dnstrails.com/">DNSTrails</a>
+            <a href="https://securitytrails.com/dns-trails">DNS Trails</a>
         </td>
         <td>
             Free intelligence source for current and historical DNS information, WHOIS information, finding other websites associated with certain IPs, subdomain knowledge and technologies. There is a <a href="https://securitytrails.com/">IP and domain intelligence API available</a> as well. 
@@ -269,7 +282,7 @@ A curated list of awesome Threat Intelligence resources
     </tr>
     <tr>
         <td>
-            <a href="https://riskdiscovery.com/honeydb/" target="_blank">HoneyDB</a>
+            <a href="https://honeydb.io/" target="_blank">HoneyDB</a>
         </td> 
         <td>
             HoneyDB provides real time data of honeypot activity. This data comes from honeypots deployed on the Internet using the <a href="https://github.com/foospidy/HoneyPy" target="_blank">HoneyPy</a> honeypot. In addition, HoneyDB provides API access to collected honeypot activity, which also includes aggregated data from various honeypot Twitter feeds.
@@ -338,10 +351,6 @@ Continuously updated and inform your business or clients about risks and implica
         <td>
             Probable Whitelist of the top 1 million web sites, as ranked by Majestic. Sites are ordered by the number of referring subnets. More about the ranking can be found on their <a href="https://blog.majestic.com/development/majestic-million-csv-daily/" target="_blank">blog</a>.
         </td>
-    </tr>
-    <tr>
-        <td><a href="http://malc0de.com/bl/">Malc0de DNS Sinkhole</a></td>
-        <td>The files in this link will be updated daily with domains that have been indentified distributing malware during the past 30 days. Collected by malc0de.</td>
     </tr>
     <tr>
         <td>
@@ -486,6 +495,14 @@ The primary goal of Malpedia is to provide a resource for rapid identification a
     </tr>
     <tr>
         <td>
+            <a href="https://www.celerium.com/pickupstix" target="_blank">PickupSTIX</a>
+        </td>
+        <td>
+            PickupSTIX is a feed of free, open-source, and non-commercialized cyber threat intelligence. Currently, PickupSTIX uses three public feeds and distributes about 100 new pieces of intelligence each day. PickupSTIX translates the various feeds into STIX, which can communicate with any TAXII server. The data is free to use and is a great way to begin using cyber threat intelligence.
+        </td>
+    </tr>
+    <tr>
+        <td>
             <a href="https://rescure.fruxlabs.com/" target="_blank">REScure Threat Intel Feed</a>
         </td>
         <td>
@@ -513,6 +530,14 @@ The primary goal of Malpedia is to provide a resource for rapid identification a
         <td>
             The Suspicious Domains Threat Lists by <a href="https://isc.sans.edu/suspicious_domains.html" target="_blank">SANS ICS</a> tracks suspicious domains. It offers 3 lists categorized as either <a href="https://isc.sans.edu/feeds/suspiciousdomains_High.txt" target="_blank">high</a>, <a href="https://isc.sans.edu/feeds/suspiciousdomains_Medium.txt" target="_blank">medium</a> or <a href="https://isc.sans.edu/feeds/suspiciousdomains_Low.txt" target="_blank">low</a> sensitivity, where the high sensitivity list has fewer false positives, whereas the low sensitivity list with more false positives. There is also an <a href="https://isc.sans.edu/feeds/suspiciousdomains_whitelist_approved.txt" target="_blank">approved whitelist</a> of domains.<br/>
             Finally, there is a suggested <a href="https://isc.sans.edu/block.txt" target="_blank">IP blocklist</a> from <a href="https://dshield.org">DShield</a>.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/securityscorecard/SSC-Threat-Intel-IoCs" target="_blank">SecurityScorecard IoCs</a>
+        </td>
+        <td>
+            Public access IoCs from technical blogs posts and reports by SecurityScorecard.
         </td>
     </tr>
     <tr>
@@ -664,14 +689,6 @@ The primary goal of Malpedia is to provide a resource for rapid identification a
     </tr>
     <tr>
         <td>
-            <a href="https://zeustracker.abuse.ch/" target="_blank">ZeuS Tracker</a>
-        </td>
-        <td>
-            The ZeuS Tracker by <a href="https://abuse.ch/" target="_blank">abuse.ch</a> tracks ZeuS Command & Control servers (hosts) around the world and provides you a domain- and a IP-blocklist.
-        </td>
-    </tr>
-    <tr>
-        <td>
             <a href="https://IOCFeed.mrlooquer.com/" target="_blank">1st Dual Stack Threat Feed by MrLooquer</a>
         </td>
         <td>
@@ -754,7 +771,7 @@ Standardized formats for sharing Threat Intelligence (mostly IOCs).
             <a href="http://veriscommunity.net/index.html" target="_blank">VERIS</a>
         </td>
         <td>
-            The Vocabulary for Event Recording and Incident Sharing (VERIS) is a set of metrics designed to provide a common language for describing security incidents in a structured and repeatable manner. VERIS is a response to one of the most critical and persistent challenges in the security industry - a lack of quality information. In addition to providing a structured format, VERIS also collects data from the community to report on breaches in the Verizon Data Breach Investigations Report (<a target="_blank" href="http://www.verizonenterprise.com/verizon-insights-lab/dbir/">DBIR</a>) and publishes this database online at <a target="_blank" href="http://vcdb.org/index.html">VCDB.org</a>.
+            The Vocabulary for Event Recording and Incident Sharing (VERIS) is a set of metrics designed to provide a common language for describing security incidents in a structured and repeatable manner. VERIS is a response to one of the most critical and persistent challenges in the security industry - a lack of quality information. In addition to providing a structured format, VERIS also collects data from the community to report on breaches in the Verizon Data Breach Investigations Report (<a target="_blank" href="http://www.verizonenterprise.com/verizon-insights-lab/dbir/">DBIR</a>) and publishes this database online in a GitHub <a target="_blank" href="https://github.com/vz-risk/VCDB">repository.org</a>.
         </td>
     </tr>
 </table>
@@ -782,10 +799,10 @@ Frameworks, platforms and services for collecting, analyzing, creating and shari
     </tr>
     <tr>
         <td>
-            <a href="https://www.dhs.gov/ais" target="_blank">AIS</a>
+            <a href="https://www.cisa.gov/ais" target="_blank">AIS</a>
         </td>
         <td>
-            The Department of Homeland Security’s (DHS) free Automated Indicator Sharing (AIS) capability enables the exchange of cyber threat indicators between the Federal Government and the private sector at machine speed. Threat indicators are pieces of information like malicious IP addresses or the sender address of a phishing email (although they can also be much more complicated).
+            The Cybersecurity and Infrastructure Security Agency (CISA) free Automated Indicator Sharing (AIS) capability enables the exchange of cyber threat indicators between the Federal Government and the private sector at machine speed. Threat indicators are pieces of information like malicious IP addresses or the sender address of a phishing email (although they can also be much more complicated).
         </td>
     </tr>
     <tr>
@@ -834,6 +851,14 @@ Frameworks, platforms and services for collecting, analyzing, creating and shari
         </td>
         <td>
             The Collective Intelligence Framework (CIF) allows you to combine known malicious threat information from many sources and use that information for IR, detection and mitigation. Code available on <a href="https://github.com/csirtgadgets/massive-octo-spice" target="_blank">GitHub</a>.
+        </td>
+    </tr>
+<tr>
+        <td>
+            <a href="https://cyware.com/ctix-stix-taxii-cyber-threat-intelligence-exchange" target="_blank">CTIX</a>
+        </td>
+        <td>
+            CTIX is a smart, client-server threat intelligence platform (TIP) for ingestion, enrichment, analysis, and bi-directional sharing of threat data within your trusted network.
         </td>
     </tr>
     <tr>
@@ -1008,14 +1033,6 @@ Frameworks, platforms and services for collecting, analyzing, creating and shari
     </tr>
     <tr>
         <td>
-            <a href="https://www.celerium.com/automate" target="_blank">Soltra</a>
-        </td>
-        <td>
-            Soltra supports a community defense model that is highly interoperable and extensible. It is built with industry standards supported out of the box, including STIX (up to 2.1) and TAXII.
-        </td>
-    </tr>
-    <tr>
-        <td>
             <a href="https://www.anomali.com/platform/staxx" target="_blank">STAXX (Anomali)</a>
         </td>
         <td>
@@ -1126,10 +1143,10 @@ All kinds of tools for parsing, creating and editing Threat Intelligence. Mostly
 <table>
     <tr>
         <td>
-            <a href="https://actortrackr.com/" target="_blank">ActorTrackr</a>
+            <a href="https://github.com/jalewis/actortrackr" target="_blank">ActorTrackr</a>
         </td>
         <td>
-            ActorTrackr is an open source web application for storing/searching/linking actor related data. The primary sources are from users and various public repositories. Source available on <a href="https://github.com/dougiep16/actortrackr" target="_blank">GitHub</a>.
+            ActorTrackr is an open source web application for storing/searching/linking actor related data. The primary sources are from users and various public repositories. Source available on <a href="https://github.com/jalewis/actortrackr" target="_blank">GitHub</a>.
         </td>
     </tr>
     <tr>
@@ -1138,6 +1155,14 @@ All kinds of tools for parsing, creating and editing Threat Intelligence. Mostly
         </td>
         <td>
             AIEngine is a next generation interactive/programmable Python/Ruby/Java/Lua packet inspection engine with capabilities of learning without any human intervention, NIDS(Network Intrusion Detection System) functionality, DNS domain classification, network collector, network forensics and many others.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://analyze.intezer.com" target="_blank">Analyze (Intezer)</a>
+        </td>
+        <td>
+            Analyze is an all-in-one malware analysis platform that is able to perform static, dynamic, and genetic code analysis on all types of files. Users can track malware families, extract IOCs/MITRE TTPs, and download YARA signatures. There is a community edition to get started for free.
         </td>
     </tr>
     <tr>
@@ -1721,7 +1746,7 @@ All kinds of reading material about Threat Intelligence. Includes (scientific) r
     </tr>
     <tr>
         <td>
-            <a href="https://attack.mitre.org/wiki/Main_Page" target="_blank">ATT&CK</a>
+            <a href="https://attack.mitre.org/" target="_blank">ATT&CK</a>
         </td>
         <td>
             Adversarial Tactics, Techniques, and Common Knowledge (ATT&CK™) is a model and framework for describing the actions an adversary may take while operating within an enterprise network. ATT&CK is a constantly growing common reference for post-access techniques that brings greater awareness of what actions may be seen during a network intrusion. MITRE is actively working on integrating with related construct, such as CAPEC, STIX and MAEC.
@@ -1876,7 +1901,7 @@ All kinds of reading material about Threat Intelligence. Includes (scientific) r
     </tr>
     <tr>
         <td>
-            <a href="https://www.mwrinfosecurity.com/assets/Whitepapers/Threat-Intelligence-Whitepaper.pdf" target="_blank">Threat Intelligence: Collecting, Analysing, Evaluating</a>
+            <a href="./docs/mwr-threat-intelligence-whitepaper.pdf" target="_blank">Threat Intelligence: Collecting, Analysing, Evaluating</a>
         </td>
         <td>
             This report by MWR InfoSecurity clearly describes several different types of threat intelligence, including strategic, tactical and operational variations. It also discusses the processes of requirements elicitation, collection, analysis, production and evaluation of threat intelligence. Also included are some quick wins and a maturity model for each of the types of threat intelligence defined by MWR InfoSecurity.
@@ -1908,7 +1933,7 @@ All kinds of reading material about Threat Intelligence. Includes (scientific) r
     </tr>
     <tr>
         <td>
-            <a href="https://www.sans.org/reading-room/whitepapers/analyst/who-039-s-cyberthreat-intelligence-how-35767" target="_blank">Who's Using Cyberthreat Intelligence and How?</a>
+            <a href="docs/sans-whos-using-cyberthreat-intelligence-and-how.pdf" target="_blank">Who's Using Cyberthreat Intelligence and How?</a>
         </td>
         <td>
             A whitepaper by the SANS Institute describing the usage of Threat Intelligence including a survey that was performed.

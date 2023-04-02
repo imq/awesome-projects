@@ -39,7 +39,6 @@
     - [IRC channels](#irc-channels)
     - [MacRumors](#macrumors)
     - [Reddit](#reddit)
-- [Contribute](#contribute)
 
 
 ## Applications
@@ -91,6 +90,7 @@
 - [Integrity](http://peacockmedia.software/mac/integrity/free.html) - Easily find your website's broken links. ![Freeware][Freeware Icon]
 - [Kaleidoscope](http://www.kaleidoscopeapp.com/) - Powerful diff and merge application supporting text, images, and folders.
 - [Knuff](https://github.com/KnuffApp/Knuff) - The debug application for Apple Push Notification Service (APNs). [![Open-Source Software][OSS Icon]](https://github.com/KnuffApp/Knuff) ![Freeware][Freeware Icon]
+- [Medis](https://getmedis.com) - A modern GUI for Redis.
 - [Pasteboard Viewer](https://apps.apple.com/app/id1499215709) - Inspect the system pasteboards. [![Open-Source Software][OSS Icon]](https://github.com/sindresorhus/Pasteboard-Viewer) ![Freeware][Freeware Icon]
 - [Paw](https://luckymarmot.com/paw) - The ultimate REST client.
 - [Pods Updater](https://github.com/kizitonwose/PodsUpdater) - A macOS app which helps you manage dependency releases in your Podfile. [![Open-Source Software][OSS Icon]](https://github.com/kizitonwose/PodsUpdater) ![Freeware][Freeware Icon]
@@ -205,6 +205,7 @@
 - [Keytty](http://keytty.com) - Enables you to control your mouse with a few key strokes. Mouse Keys Alternative.
 - [LaunchBar](https://www.obdev.at/products/launchbar/index.html) - Start applications, navigate folders, manipulate files, control your Mac and much more just by using the keyboard.
 - [MeetingBar](https://meetingbar.onrender.com) - Your meetings in MacOS status bar [![Open-Source Software][OSS Icon]](https://github.com/leits/MeetingBar) ![Freeware][Freeware Icon]
+- [MenubarX](https://MenubarX.app) - A powerful menu bar browser.
 - [OmniFocus](https://www.omnigroup.com/omnifocus) - An incredible task management platform for Mac, iPad, and iPhone.
 - [OmniOutliner](https://www.omnigroup.com/omnioutliner/) - Perfect for collecting information, outlining ideas, adding structure to any sort of writing, and much more.
 - [Pandan](https://apps.apple.com/app/id1569600264) - Time awareness in your menu bar. ![Freeware][Freeware Icon]
@@ -284,6 +285,7 @@
 - [Media Converter](http://media-converter.sourceforge.net/) - Simple (drag and drop) but advanced media conversion. [![Open-Source Software][OSS Icon]](https://sourceforge.net/p/media-converter/code/ci/master/tree/) ![Freeware][Freeware Icon]
 - [Menubar Colors](https://github.com/nvzqz/Menubar-Colors) - Convenient access to the system color panel. [![Open-Source Software][OSS Icon]](https://github.com/nvzqz/Menubar-Colors) ![Freeware][Freeware Icon]
 - [MenuMeters](http://member.ipmu.jp/yuji.tachikawa/MenuMetersElCapitan/) - A set of CPU, memory, disk, and network monitoring tools for macOS. [![Open-Source Software][OSS Icon]](https://github.com/yujitach/MenuMeters)
+- [MonitorControl](https://github.com/MonitorControl/MonitorControl) - Control your display's brightness and volume on your Mac as if it was a native Apple Display. Use Apple Keyboard keys or custom shortcuts. Shows the native macOS OSDs. [![Open-Source Software][OSS Icon]](https://github.com/MonitorControl/MonitorControl)
 - [Monodraw](http://monodraw.helftone.com/) - A powerful ASCII art editor.
 - [Mounty](http://enjoygineering.com/mounty/) - A tiny tool to re-mount write-protected NTFS volumes under macOS 10.9+ in read-write mode.
 - [Noizio](http://noiz.io/) - Ambient sound equalizer for relaxation or productivity.
@@ -341,7 +343,6 @@
 - [Clocker](https://itunes.apple.com/us/app/clocker-menubar-world-clock/id1056643111?ls=1&mt=12) - Check time in multiple timezones from your Mac menubar. [![Open-Source Software][OSS Icon]](https://github.com/Abhishaker17/Clocker) ![Freeware][Freeware Icon]
 - [Juice](https://github.com/brianmichel/Juice) - Make your battery information a bit more interesting. [![Open-Source Software][OSS Icon]](https://github.com/brianmichel/Juice) ![Freeware][Freeware Icon]
 - [Sonora](https://github.com/sonoramac/Sonora) -  A minimal, beautifully designed music player. [![Open-Source Software][OSS Icon]](https://github.com/sonoramac/Sonora) ![Freeware][Freeware Icon]
-- [SoundCleod](http://soundcleod.com/) - A browser for SoundCloud. [![Open-Source Software][OSS Icon]](https://github.com/salomvary/soundcleod) ![Freeware][Freeware Icon]
 - [Spillo](https://bananafishsoftware.com/products/spillo/) - Powerful, beautiful and fast Pinboard client.
 - [Transmit](https://panic.com/transmit/) - A FTP client.
 
@@ -438,6 +439,24 @@ Ansible playbook to configure a development and desktop environment from a clean
 * [Show hidden files](http://ianlunn.co.uk/articles/quickly-showhide-hidden-files-mac-os-x-mavericks/)
 * [Mac Power Users](https://www.relay.fm/mpu)
 * [Awesome Screensavers](https://github.com/aharris88/awesome-osx-screensavers)
+
+
+## Discussion Forums
+
+
+### IRC channels
+
+* [#macosx](https://webchat.freenode.net/?channels=macosx)
+* [#apple](https://webchat.freenode.net/?channels=apple)
+* [#mac](https://webchat.freenode.net/?channels=mac)
+
+
+### MacRumors
+
+* [macOS Yosemite](http://forums.macrumors.com/forums/os-x-yosemite-10-10.171/)
+* [macOS El Capitan](http://forums.macrumors.com/forums/os-x-el-capitan-10-11.184/)
+* [macOS Mojave](https://forums.macrumors.com/forums/macos-mojave-10-14.205/)
+* [macOS Catalina](https://forums.macrumors.com/forums/macos-catalina-10-15.208/)
 
 
 ### Reddit
