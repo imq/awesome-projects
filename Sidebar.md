@@ -1,7 +1,6 @@
 
 - [Home](/)
 - [Analytics & Privacy](/doc/analytics/README.md)
-- [Awesome](/doc/awsm/README.md)
 - [Cyber-Security](/doc/security/README.md)
 - [For Developer](/doc/developer/README.md)
 - [Flipper Zero](/doc/flipperzero/README.md)
