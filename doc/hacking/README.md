@@ -1,7 +1,3 @@
-## Table of Contents
-
-<!-- MarkdownTOC depth=4 -->
-
 - [System](#system)
     - [Tutorials](#tutorials)
     - [Tools](#tools)

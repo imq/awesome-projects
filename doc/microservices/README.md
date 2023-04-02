@@ -1,5 +1,3 @@
-**Table of Contents**
-
 - [Platforms](#platforms)
 - [Frameworks / Runtimes](#frameworks--runtimes)
 - [Service Toolkits](#service-toolkits)
