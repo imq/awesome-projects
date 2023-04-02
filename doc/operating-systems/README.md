@@ -1,4 +1,4 @@
-- [Mac OS X] (#macos)
+- [Mac OS X](#macos)
     - [Applications](#applications)
         - [Audio](#audio)
         - [Backup](#backup)
