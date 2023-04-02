@@ -1,7 +1,6 @@
 
 - [Home](/)
 - [Analytics & Privacy](/doc/analytics/README.md)
-- [Anti-Forensics](/doc/anti-forensic/README.md)
 - [Awesome](/doc/awsm/README.md)
 - [Cyber-Security](/doc/security/README.md)
 - [DEV-SRE-OPS](/doc/devops/README.md)

@@ -64,11 +64,6 @@
 
 ## Firmwares & Tweaks
 
-<table align="right">
-  <tr><th><strong>Hey you!</strong></th></tr>
-  <tr><td>🔰 <em><a href="https://github.com/imq/awesome-projects/blob/master/doc/flipperzero/Firmwares.md">Click here</a> for a feature<br>comparison of these firmwares!</em></td></tr>
-</table>
-
 - [`Unleashed` Unlocked firmware with rolling codes support & community plugins, stable tweaks, and games.](https://github.com/DarkFlippers/unleashed-firmware)
 - [`RogueMaster` Fork of Unleashed firmware with custom graphics, experimental tweaks, community plugins and games.](https://github.com/RogueMaster/flipperzero-firmware-wPlugins)
 - [`Xtreme` Official fork with cleaned up codebase, more module extensions and custom assets.](https://github.com/ClaraCrazy/Flipper-Xtreme)

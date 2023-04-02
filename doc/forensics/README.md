@@ -1,6 +1,4 @@
-# Curated list of awesome **free** (mostly open source) forensic analysis tools and resources.
-
-- [Awesome Forensics ](#awesome-forensics)
+- [Forensics ](#awesome-forensics)
   - [Collections](#collections)
   - [Tools](#tools)
     - [Distributions](#distributions)
