@@ -13,7 +13,6 @@
 - [OSes](/doc/operating-systems/README.md)
 - [MicroServices](/doc/microservices/README.md)
 - [Pentesting](/doc/pentest/README.md)
-- [PHP](/doc/php/README.md)
 - [Selfhosted non-free](/doc/selfhosted/selfhosted-non-free.md)
 - [Selfhosted](/doc/selfhosted/README.md)
 - [Sys-Admin & DevOps](/doc/sysadmin/README.md)
