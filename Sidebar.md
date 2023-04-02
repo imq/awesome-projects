@@ -7,7 +7,6 @@
 - [Flipper Zero](/doc/flipperzero/README.md)
 - [Flipper FW](/doc/flipperzero/Firmwares.md)
 - [Forensics](/doc/forensics/README.md)
-- [Hacking](/doc/hacking/README.md)
 - [HEP](/doc/hep/README.md)
 - [Honeypots & Malware Analysis](/doc/honeypots/README.md)
 - [Incident Response](/doc/incident-response/README.md)
