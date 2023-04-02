@@ -279,6 +279,7 @@ Often there is no clear differentiation between social media management and anal
 ------
 
 # Privacy
+
 ## 2FA
 <img width="16" src="misc/forbidden.png"> </img> Avoid using apps that won't let you export your keys **easily**.
 - Authy
