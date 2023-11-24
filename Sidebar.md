@@ -12,6 +12,7 @@
 - [OSes](/doc/operating-systems/README.md)
 - [MicroServices](/doc/microservices/README.md)
 - [Pentesting](/doc/pentest/README.md)
+- [Tunnels](/doc/tunnels/README.md)
 - [Selfhosted non-free](/doc/selfhosted/selfhosted-non-free.md)
 - [Selfhosted](/doc/selfhosted/README.md)
 - [Sys-Admin & DevOps](/doc/sysadmin/README.md)
