@@ -23,7 +23,6 @@
 - [Networking](#networking)
 - [Decentralized Systems](#decentralized-systems)
 - [Health and Social Science](#health-and-social-science)
-- [Events](#events)
 - [Testing](#testing)
 - [Miscellaneous](#miscellaneous)
 - [ChatGPT prompts](#chatgpt)
@@ -675,11 +674,6 @@
 - [Neuroscience](https://github.com/analyticalmonk/awesome-neuroscience#readme) - Study of the nervous system and brain.
 - [Digital Humanities](https://github.com/dh-tech/awesome-digital-humanities#readme) - Software for humanities scholars using quantitative or computational methods.
 
-## Events
-
-- [Creative Tech Events](https://github.com/danvoyce/awesome-creative-tech-events#readme) - Events around the globe for creative coding, tech, design, music, arts and cool stuff.
-- [Events in Italy](https://github.com/ildoc/awesome-italy-events#readme) - Tech-related events in Italy.
-- [Events in the Netherlands](https://github.com/awkward/awesome-netherlands-events#readme) - Tech-related events in the Netherlands.
 
 ## Testing
 
