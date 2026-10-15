@@ -958,6 +958,7 @@ _For a more comprehensive/advanced/better categorized/... list of Linux audio so
 
 #### Supportive Tool
 
+- [![Open-Source Software][oss icon]](https://github.com/antonio-orionus/Arroxy) [Arroxy](https://orionus.dev/arroxy/) - A cross-platform GUI for yt-dlp that downloads video, audio, playlists, channels and subtitles from YouTube and other supported sites.
 - [Clipgrab](https://clipgrab.org/) - A friendly downloader for YouTube and other sites.
 - [![Open-Source Software][oss icon]](https://gitweb.torproject.org/tor.git) [Tor](https://www.torproject.org/) - Tor is free software and an open network that helps you defend against traffic analysis, a form of network surveillance that threatens personal freedom and privacy.
 - [![Open-Source Software][oss icon]](https://github.com/Unrud/video-downloader) [Video Downloader](https://github.com/Unrud/video-downloader) - Download videos from websites like YouTube and many others (based on yt-dlp).
