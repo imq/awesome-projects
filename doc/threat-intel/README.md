@@ -26,14 +26,6 @@ A certain amount of (domain- or business-specific) analysis is necessary to crea
     </tr>
     <tr>
         <td>
-            <a href="http://s3.amazonaws.com/alexa-static/top-1m.csv.zip" target="_blank">Alexa Top 1 Million sites</a>
-        </td>
-        <td>
-            The top 1 Million sites from Amazon(Alexa). Never use this as a <a href="https://www.netresec.com/?page=Blog&month=2017-04&post=Domain-Whitelist-Benchmark%3a-Alexa-vs-Umbrella" target="_blank">whitelist</a>.
-        </td>
-    </tr>
-    <tr>
-        <td>
             <a href="https://docs.google.com/spreadsheets/u/1/d/1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU/pubhtml" target="_blank">APT Groups and Operations</a>
         </td>
         <td>
@@ -430,6 +422,14 @@ The primary goal of Malpedia is to provide a resource for rapid identification a
         </td>
         <td>
             MetaDefender Cloud Threat Intelligence Feeds contains top new malware hash signatures, including MD5, SHA1, and SHA256. These new malicious hashes have been spotted by MetaDefender Cloud within the last 24 hours. The feeds are updated daily with newly detected and reported malware to provide actionable and timely threat intelligence.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://netapi.com/top-1-mln-websites/" target="_blank">NetAPI Top 1M</a>
+        </td>
+        <td>
+            Free, daily updated list of the one million most popular websites (CSV, CC BY 4.0), ranked on SEO / link-graph and traffic signals. Never use this as a <a href="https://www.netresec.com/?page=Blog&month=2017-04&post=Domain-Whitelist-Benchmark%3a-Alexa-vs-Umbrella" target="_blank">whitelist</a>.
         </td>
     </tr>
     <tr>
