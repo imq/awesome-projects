@@ -840,6 +840,7 @@ _See also: [IT Asset Management]([Ralph](#it-asset-management))_
 - [mtr](https://www.bitwizard.nl/mtr/) - Network utility that combines traceroute and ping.
 - [perf-tools](https://github.com/brendangregg/perf-tools) - Performance analysis tools based on Linux perf_events (aka perf) and ftrace.
 - [Sysdig](http://www.sysdig.org/) - Capture system state and activity from a running Linux instance, then save, filter and analyze.
+- [vhr-bench](https://github.com/vpshostreview/vhr-vps-benchmark) - Bash script that benchmarks a Linux server in about a minute with sysbench CPU and memory tests and fio 4k random read and write IOPS.
 - [Wireshark](https://www.wireshark.org/) - The world's foremost network protocol analyzer.
 
 
