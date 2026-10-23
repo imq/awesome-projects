@@ -721,6 +721,7 @@ No servers involved. Everything goes directly from one peer to the other peer. N
 - [Riseup](https://riseup.net/en/about-us) - Online communication tools for people and groups working on liberatory social change.
 - [Mailfence](https://mailfence.com) - Secure and private email.
 - [Skiff](https://skiff.com) - Privacy-first, end-to-end encrypted, open-source email.
+- [Aster Mail](https://astermail.org) - End-to-end encrypted email with post-quantum protection, PGP, aliases and custom domains.
 
 ### Self-Hosted
 - [Docker mail server](https://github.com/docker-mailserver/docker-mailserver) - A fullstack but simple mail server (SMTP, IMAP, LDAP, Antispam, Antivirus, etc.) using Docker.
