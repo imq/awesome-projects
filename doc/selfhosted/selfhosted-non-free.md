@@ -147,6 +147,7 @@
 
 ### Software Development - Testing
 
+- [agent-qa](https://vostride.com/) - AI-powered web and mobile testing with a local dashboard, advanced memidex memory, and self-improvement. ([Source Code](https://github.com/vostride/agent-qa)) `FSL-1.1-ALv2` `Nodejs`
 - [Bamboo](https://www.atlassian.com/software/bamboo) - Continuous integration server. `⊘ Proprietary` `Java`
 - [Sentry Self-Hosted](https://github.com/getsentry/self-hosted) - Powerful error tracking platform with wide language support and a robust API. ([Source Code](https://github.com/getsentry/sentry)) `BUSL-1.1` `Python/Django`
 - [Moon](https://aerokube.com/moon/) - Efficient Selenium protocol implementation running everything in Kubernetes or Openshift. `⊘ Proprietary` `Go`
