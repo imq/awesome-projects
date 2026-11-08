@@ -744,6 +744,7 @@ With email aliases, you can finally create a different identity for each website
 
 - [SimpleLogin](https://github.com/simple-login/app)
 - [AnonAddy](https://github.com/anonaddy/anonaddy)
+- [anon.li](https://github.com/anondotli/anon.li) - Open-source (AGPL-3.0) email aliases that forward to your inbox, with a hosted service.
 
 ## Maps and Navigation
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
