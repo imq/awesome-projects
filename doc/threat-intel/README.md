@@ -534,6 +534,14 @@ The primary goal of Malpedia is to provide a resource for rapid identification a
     </tr>
     <tr>
         <td>
+            <a href="https://scanmalware.com/" target="_blank">ScanMalware</a>
+        </td>
+        <td>
+            Free URL scanner that analyzes links in isolated environments and checks what each page loads and runs against YARA, antivirus and IDS rules and threat feeds, with AI models classifying suspicious pages by scam type, such as credential phishing. A public feed of recent scans and a keyless REST API make every public scan searchable by domain, IP, ASN, JARM, favicon hash or scam type.
+        </td>
+    </tr>
+    <tr>
+        <td>
             <a href="https://github.com/securityscorecard/SSC-Threat-Intel-IoCs" target="_blank">SecurityScorecard IoCs</a>
         </td>
         <td>
