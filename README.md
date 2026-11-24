@@ -1094,6 +1094,7 @@
 * [SQLMap](https://github.com/sqlmapproject/sqlmap) - An automatic SQL injection and database takeover tool. 
 * [TCrypto](https://github.com/timoh6/TCrypto) - A simple encrypted key-value storage library.
 * [VAddy](https://vaddy.net/) - A continuous security testing platform for web applications.
+* [Vulert](https://vulert.com) - Vulert secures your software supply chain by detecting and continuously monitoring vulnerabilities and malicious open-source dependencies — without accessing your source code or installing agents. It helps developers identify, prioritize, and fix vulnerabilities quickly and efficiently. Supports JavaScript, PHP, Java, Python, Go, Rust, and more.
 * [Zap](https://owasp.org/www-project-zap/) - An integrated penetration testing tool for web applications.
 
 ### Passwords
